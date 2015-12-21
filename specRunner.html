@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <!-- jasmine references here-->
+    <link href="Content/jasmine/jasmine.css" rel="stylesheet" />
+    <script src="Scripts/jasmine/jasmine.js"></script>
+    <script src="Scripts/jasmine/jasmine-html.js"></script>
+    <script src="Scripts/jasmine/console.js"></script>
+    <script src="Scripts/jasmine/boot.js"></script>
+
+    <!--angular files here-->
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <!-- module here-->
+    <script src="ng/module/myApp.js"></script>
+    <script src="Scripts/angular-mocks.js"></script>
+   
+    <!--controller here-->
+    <script src="ng/controllers/mainController.js"></script>
+   
+    <!--all specs here-->
+    <script src="specs/firstSpec.js"></script>
+    <script src="specs/secondSpec.js"></script>
+    <script src="specs/controllerSpec.js"></script>
+    <script src="customMatchersDef.js"></script>
+    <script src="specs/customMatcherSpec.js"></script>
+</head>
+<body ng-app="myApp">
+    <div ng-view=""></div>
+</body>
+</html>
